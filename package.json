@@ -6,15 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type": "module"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
     "antd": "^5.12.5",
     "i18next": "^23.7.12",
     "next": "14.0.4",
+    "node-html-parser": "^6.1.12",
     "react": "^18",
     "react-dom": "^18",
-    "react-redux": "^9.0.4"
+    "react-hook-form": "^7.49.2",
+    "react-i18next": "^14.0.0",
+    "react-icons": "^4.12.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@types/node": "^20",
